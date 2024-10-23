@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: black;
+  padding: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+img {
+  padding: 20px;
+}
+
+h1 {
+  padding: 20px;
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button {
+  background-color: transparent;
+  color: whitesmoke;
+  border-radius: 10em;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid white;
+  box-shadow: 0 0 0 0 white;
+  margin-bottom: 70px;
+  margin-left: 20px;
+}
+
+button:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 white;
+}
+
+button:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+}
+
+.car-overview {
+  display: flex;
+  justify-content: center;
+}
+
+.article-1 {
+  background-color: hsl(31, 77%, 52%);
+  padding: 20px;
+}
+
+.article-2 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 20px;
+}
+
+.article-3 {
+  background-color: hsl(179, 100%, 13%);
+  padding: 20px;
+}
