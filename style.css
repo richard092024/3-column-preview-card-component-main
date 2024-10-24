@@ -1,5 +1,4 @@
 * {
-  margin: 0;
   box-sizing: border-box;
 }
 
@@ -59,11 +58,13 @@ button:active {
 }
 
 .car-overview {
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
 
 .article-1 {
+  border-radius: 10px 0px 0px 10px;
   background-color: hsl(31, 77%, 52%);
   padding: 20px;
 }
@@ -76,4 +77,5 @@ button:active {
 .article-3 {
   background-color: hsl(179, 100%, 13%);
   padding: 20px;
+  border-radius: 0px 10px 10px 0px;
 }
